@@ -1,0 +1,1 @@
+![AI Agent Diagram](https://learn.microsoft.com/en-us/agent-framework/media/agent.svg)

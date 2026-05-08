@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "35327d5e00285fb2",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ad3a5213481a9f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e898ae737620e2bc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "548d6d465bc721bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "d8b05614bcb1337a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0bd60adef76da27",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "19813f20f28a9e4b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c88399a43cfb39a1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "449c130d2b689be5",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9d61696da687f2f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f502698a25884841",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MASTERS/DOCUMENTATION/SECURITY COMPARISON OF OPENAI AND CLAUDE..md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para SECURITY COMPARISON OF OPENAI AND CLAUDE."
+            }
+          },
+          {
+            "id": "f7ac2c4e13baf289",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "MASTERS/DOCUMENTATION/SECURITY COMPARISON OF OPENAI AND CLAUDE..md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para SECURITY COMPARISON OF OPENAI AND CLAUDE."
+            }
+          },
+          {
+            "id": "594d540fd73726e7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "eff727e336cc36d1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "562df7a43fc9ed79",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "MASTERS/DOCUMENTATION/SECURITY COMPARISON OF OPENAI AND CLAUDE..md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de SECURITY COMPARISON OF OPENAI AND CLAUDE."
+            }
+          },
+          {
+            "id": "9db8ce8d5074c472",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "iconic:Open rulebook": false,
+      "markdown-importer:Open format converter": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "9db8ce8d5074c472",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "Untitled.base",
+    "Untitled 1.base",
+    "MASTERS/DOCUMENTATION/OPENAI AGENTS SDK..md",
+    "MASTERS/DRAFTS/MICROSOFT AGENT FRAMEWORK..md",
+    "MASTERS/IMAGES/Untitled.md",
+    "MASTERS/IMAGES",
+    "MASTERS/TABLES/Untitled.md",
+    "MASTERS/DOCUMENTATION HOME..md",
+    "MASTERS/DRAFTS/GOOGLE AGENT DEVELOPMENT KIT..md",
+    "MASTERS/TABLES",
+    "MASTERS/TABLES/COMPARISON OF INFRASTRUCTURE..md",
+    "MASTERS/DRAFTS/AMAZON STRANDS AGENT SDK..md",
+    "HOME.md",
+    "Bem-vindo.md",
+    "MASTERS/DOCUMENTATION/SUMMARY COMPARISON OF OPENAI AND CLAUDE..md",
+    "MASTERS/DOCUMENTATION/SECURITY COMPARISON OF OPENAI AND CLAUDE..md",
+    "MASTERS/DRAFTS",
+    "crie um link.md",
+    "OpenAI.md",
+    "2026-04-28.md",
+    "Sem título.canvas",
+    "Sem título.md",
+    "MASTERS/DOCUMENTATION",
+    "Sem título.base",
+    "Sem título 1.canvas",
+    "documents_security/042727_claude_managed_agents_security_review.mkd",
+    "documents_security/042727_openai_agents_sdk_security_review.mkd",
+    "documents_security/042727 Claude Managed Agents Security Review.md",
+    "MASTERS"
+  ]
+}

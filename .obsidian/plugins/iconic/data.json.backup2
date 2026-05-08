@@ -1,0 +1,81 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": true,
+  "showAllFolderIcons": true,
+  "minimalFolderIcons": true,
+  "showMarkdownTabIcons": true,
+  "showTitleIcons": true,
+  "showTagPillIcons": false,
+  "showMenuActions": true,
+  "showSuggestionIcons": false,
+  "showQuickSwitcherIcons": true,
+  "showMoveFileIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "maxBackups": 2,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "file"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "HOME.md": {
+      "icon": "lucide-home",
+      "color": "#e49ab4"
+    },
+    "MASTERS": {
+      "color": "#ad9ae4"
+    },
+    "MASTERS/DOCUMENTATION HOME..md": {
+      "icon": "lucide-home"
+    },
+    "MASTERS/DOCUMENTATION": {
+      "color": "#9abee4",
+      "icon": "lucide-folder-lock"
+    },
+    "MASTERS/DOCUMENTATION/OPENAI AGENTS SDK..md": {
+      "icon": "lucide-file-pen",
+      "color": "#e6e6e6"
+    },
+    "MASTERS/DOCUMENTATION/SECURITY COMPARISON OF OPENAI AND CLAUDE..md": {
+      "icon": "lucide-git-compare-arrows",
+      "color": "#e49a9a"
+    },
+    "MASTERS/DOCUMENTATION/SUMMARY COMPARISON OF OPENAI AND CLAUDE..md": {
+      "icon": "lucide-square-sigma",
+      "color": "#9ae4b0"
+    },
+    "MASTERS/DRAFTS": {
+      "icon": "lucide-folder-edit",
+      "color": "#9ae4df"
+    },
+    "MASTERS/DRAFTS/AMAZON STRANDS AGENT SDK..md": {
+      "icon": "lucide-file-pen",
+      "color": "#9ae4b0"
+    },
+    "MASTERS/DRAFTS/GOOGLE AGENT DEVELOPMENT KIT..md": {
+      "icon": "lucide-file-pen",
+      "color": "#dce49a"
+    },
+    "MASTERS/DRAFTS/MICROSOFT AGENT FRAMEWORK..md": {
+      "icon": "lucide-file-pen",
+      "color": "#9abee4"
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {},
+  "fileRules": [],
+  "folderRules": []
+}
