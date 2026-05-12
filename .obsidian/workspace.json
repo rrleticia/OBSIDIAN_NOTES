@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8ad3a5213481a9f1",
+        "id": "5a295a351b51a33e",
         "type": "tabs",
         "children": [
           {
-            "id": "e898ae737620e2bc",
+            "id": "df1b68030ec816e7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -187,20 +187,24 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "iconic:Open rulebook": false,
       "markdown-importer:Open format converter": false,
+      "iconic:Open rulebook": false,
       "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9db8ce8d5074c472",
+  "active": "df1b68030ec816e7",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "Untitled.base",
-    "Untitled 1.base",
+    "MASTERS/NOTES/REVIEW ON PLATFORM GOVERNANCE BETWEEN MICROSOFT AND OPENAI..md",
+    "HOME.md",
+    "MASTERS/Untitled.md",
+    "MASTERS/NOTES",
+    "MASTERS/DOCUMENTATION/MICROSOFT AGENT FRAMEWORK..md",
     "MASTERS/DOCUMENTATION/OPENAI AGENTS SDK..md",
-    "MASTERS/DRAFTS/MICROSOFT AGENT FRAMEWORK..md",
     "MASTERS/IMAGES/Untitled.md",
+    "Untitled.base",
+    "Untitled.canvas",
+    "Untitled 1.base",
     "MASTERS/IMAGES",
     "MASTERS/TABLES/Untitled.md",
     "MASTERS/DOCUMENTATION HOME..md",
@@ -208,7 +212,6 @@
     "MASTERS/TABLES",
     "MASTERS/TABLES/COMPARISON OF INFRASTRUCTURE..md",
     "MASTERS/DRAFTS/AMAZON STRANDS AGENT SDK..md",
-    "HOME.md",
     "Bem-vindo.md",
     "MASTERS/DOCUMENTATION/SUMMARY COMPARISON OF OPENAI AND CLAUDE..md",
     "MASTERS/DOCUMENTATION/SECURITY COMPARISON OF OPENAI AND CLAUDE..md",
@@ -223,7 +226,6 @@
     "Sem título 1.canvas",
     "documents_security/042727_claude_managed_agents_security_review.mkd",
     "documents_security/042727_openai_agents_sdk_security_review.mkd",
-    "documents_security/042727 Claude Managed Agents Security Review.md",
-    "MASTERS"
+    "documents_security/042727 Claude Managed Agents Security Review.md"
   ]
 }

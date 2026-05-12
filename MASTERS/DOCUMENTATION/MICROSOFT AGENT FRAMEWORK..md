@@ -17,35 +17,21 @@ From a security perspective, Microsoft Agent Framework should not be treated as 
 The following capabilities form the main technical basis for building agentic applications with Microsoft Agent Framework.
 
 1. **Agent runtime** — Agent Framework supports agents that use LLMs to process input, call tools and MCP servers, and generate responses. Microsoft documents a structured runtime model that coordinates user interaction, model inference, and tool execution. ([Microsoft Learn](https://learn.microsoft.com/en-us/agent-framework/overview/?pivots=programming-language-python "Microsoft Agent Framework Overview | Microsoft Learn"))
-    
-2. **Workflow orchestration** — Workflows are predefined execution structures that can include agents, functions, external integrations, and human interactions. Unlike agents, which dynamically choose steps based on LLM reasoning, workflows define the execution path more explicitly. ([Microsoft Learn](https://learn.microsoft.com/en-us/agent-framework/workflows/ "Microsoft Agent Framework Workflows | Microsoft Learn"))
-    
+2. **Workflow orchestration** — Workflows are predefined execution structures that can include agents, functions, external integrations, and human interactions. Unlike agents, which dynamically choose steps based on LLM reasoning, workflows define the execution path more explicitly. However inteligent agents may be incorporated into workflows given necessity. ([Microsoft Learn](https://learn.microsoft.com/en-us/agent-framework/workflows/ "Microsoft Agent Framework Workflows | Microsoft Learn"))
 3. **Model and provider flexibility** — The framework supports several providers, including Azure OpenAI, OpenAI, Microsoft Foundry, Anthropic, Ollama, GitHub Copilot, Copilot Studio, A2A, and custom providers. Microsoft also documents that feature coverage differs by provider. ([Microsoft Learn](https://learn.microsoft.com/en-us/agent-framework/agents/providers/ "Providers Overview | Microsoft Learn"))
-    
 4. **Microsoft Foundry integration** — Agent Framework supports both code-first Foundry Responses agents and service-managed Foundry agents. The code-first pattern lets the application provide the model, instructions, tools, and conversation loop; the service-managed pattern supports versioned agent definitions managed through Foundry portal or service APIs. ([Microsoft Learn](https://learn.microsoft.com/en-us/agent-framework/agents/providers/microsoft-foundry?utm_source=chatgpt.com "Microsoft Foundry"))
-    
 5. **Tool execution** — Tools extend agents by allowing interaction with external systems, code execution, data search, web search, MCP servers, and hosted tool configurations. Microsoft documents tool categories including function tools, tool approval, Code Interpreter, File Search, Web Search, hosted MCP tools, local MCP tools, and Foundry toolboxes. ([Microsoft Learn](https://learn.microsoft.com/en-us/agent-framework/agents/tools/ "Tools Overview | Microsoft Learn"))
-    
 6. **Human approval flows** — Function tools can require human approval before execution. In Python, Microsoft documents `approval_mode="always_require"` for approval-required tools, and the caller is responsible for collecting the approval or rejection and passing it back into the agent run. ([Microsoft Learn](https://learn.microsoft.com/en-us/agent-framework/agents/tools/tool-approval "Using function tools with human in the loop approvals | Microsoft Learn"))
-    
 7. **Code Interpreter and hosted execution tools** — Code Interpreter allows agents to write and execute code in a sandboxed environment for tasks such as data analysis, mathematical computation, and file processing. Availability depends on the underlying provider. ([Microsoft Learn](https://learn.microsoft.com/en-us/agent-framework/agents/tools/code-interpreter "Code Interpreter | Microsoft Learn"))
-    
 8. **Sessions and conversation state** — `AgentSession` is the state container used across agent runs. It can contain local session state, a local session identifier, a service-side conversation identifier, and mutable state shared with context or history providers. Microsoft warns that sessions are agent/service-specific and that reusing a session with a different agent configuration or provider can lead to invalid context. ([Microsoft Learn](https://learn.microsoft.com/en-us/agent-framework/agents/conversations/session "Session | Microsoft Learn"))
-    
 9. **Context providers, memory, and RAG** — Context providers run around each invocation to add context before execution and process data after execution. They can support memory enrichment, history loading, dynamic instructions, retrieved documents, RAG, and custom state extraction. ([Microsoft Learn](https://learn.microsoft.com/en-us/agent-framework/agents/conversations/context-providers "Context Providers | Microsoft Learn"))
-    
 10. **Storage and history control** — Storage controls where conversation history lives, how much history is loaded, and how reliably sessions can be resumed. Microsoft documents local session state, service-managed storage, custom history providers, reducers for in-memory history, and full session serialization for persistence across restarts. ([Microsoft Learn](https://learn.microsoft.com/en-us/agent-framework/agents/conversations/storage "Storage | Microsoft Learn"))
-    
 11. **Middleware** — Middleware can intercept, inspect, modify, or enhance agent behavior. Microsoft documents agent-run middleware, function-calling middleware, and chat-client middleware, with use cases including logging, security validation, error handling, and result transformation. ([Microsoft Learn](https://learn.microsoft.com/en-us/agent-framework/agents/middleware/ "Agent Middleware | Microsoft Learn"))
-    
 12. **Pipeline architecture** — The Python `Agent` pipeline includes agent middleware and telemetry, raw agent logic, context providers, function invocation, chat middleware and telemetry, and a provider-specific raw chat client. This layered architecture is important because different controls apply at different points in the execution path. ([Microsoft Learn](https://learn.microsoft.com/en-us/agent-framework/agents/agent-pipeline "Agent Pipeline Architecture | Microsoft Learn"))
-    
 13. **MCP integration** — Agent Framework supports MCP servers as a way to provide tools and contextual data to LLMs. Microsoft documents hosted MCP tools managed by Foundry and local/custom MCP tools. Hosted MCP can include server-side managed execution, persistent agents, allowed tool lists, and approval workflows. ([Microsoft Learn](https://learn.microsoft.com/en-us/agent-framework/agents/tools/hosted-mcp-tools "MCP and Foundry Agents | Microsoft Learn"))
-    
 14. **Workflow checkpointing** — Workflows can save state through checkpoints. Microsoft documents that checkpoints capture the state of executors, pending messages, pending requests and responses, and shared state; Python checkpoint storage options include in-memory, file, and Cosmos DB-backed storage. ([Microsoft Learn](https://learn.microsoft.com/en-us/agent-framework/workflows/checkpoints?utm_source=chatgpt.com "Microsoft Agent Framework Workflows - Checkpoints"))
-    
 15. **Observability** — Agent Framework integrates with OpenTelemetry and emits traces, logs, and metrics according to OpenTelemetry GenAI semantic conventions. Microsoft warns that enabling sensitive data can expose prompts, responses, function-call arguments, and tool results in logs and traces. ([Microsoft Learn](https://learn.microsoft.com/en-us/agent-framework/agents/observability "Observability | Microsoft Learn"))
-    
+16. **Administrative controls** — Microsoft Agent Framework does not itself provide a standalone organization-admin layer. When used with Microsoft Foundry, administrative controls are provided through Microsoft Foundry, Azure RBAC, Microsoft Entra ID, and Azure governance services. These controls include management of Foundry resources and projects, role assignments for users, groups, service principals, managed identities, agent identities, project connections, policies, monitoring, and auditability. These platform controls support enterprise governance, but they do not replace application-level authorization inside the agent workflow.
 
 # Security Assessment
 
@@ -58,27 +44,16 @@ This matters because Agent Framework agents may have function tools, MCP tools, 
 Security review should therefore cover:
 
 - which model provider is used;
-    
 - which tools are available;
-    
 - which tools have side effects;
-    
 - which tools require approval;
-    
 - which MCP servers are connected;
-    
 - which credentials are passed to tools or providers;
-    
 - whether the agent is code-first or service-managed;
-    
 - what session and history storage model is used;
-    
 - what context providers inject into the model;
-    
 - what telemetry captures;
-    
 - what workflow checkpoints persist.
-    
 
 ## 2. Tool Amplification Risk
 
@@ -87,19 +62,12 @@ Agent Framework’s tool system is powerful because it allows agents to call cus
 A stronger implementation should:
 
 - separate read-only tools from write/action tools;
-    
 - require approval for destructive or externally visible operations;
-    
 - validate tool inputs outside the model;
-    
 - validate and sanitize tool outputs before reintroducing them into context;
-    
 - avoid granting broad credentials to tools;
-    
 - avoid assuming prompt instructions are sufficient access control;
-    
 - monitor function-calling middleware and telemetry for abnormal tool behavior.
-    
 
 ## 3. Human Approval Is Useful but Application-Owned
 
@@ -110,17 +78,11 @@ This means approval is not a passive feature that automatically secures an appli
 Recommended security stance:
 
 - use approval for high-impact tools;
-    
 - show the exact tool name and arguments to the approver;
-    
 - apply server-side authorization before honoring approval;
-    
 - log approval decisions;
-    
 - treat approval as necessary but not sufficient;
-    
 - avoid letting the same model-generated content define both the action and the approval policy.
-    
 
 ## 4. Middleware as a Security Control Point
 
@@ -131,17 +93,11 @@ The key advantage is that middleware lets developers implement controls outside 
 Recommended security stance:
 
 - use agent middleware for input/output validation;
-    
 - use function-calling middleware for tool argument and tool-result checks;
-    
 - use chat-client middleware for provider-level policy enforcement;
-    
 - keep security checks deterministic where possible;
-    
 - ensure streaming and non-streaming paths are both covered;
-    
 - avoid placing all guardrail behavior only in instructions.
-    
 
 ## 5. Context Providers and Memory Injection Risk
 
@@ -152,17 +108,11 @@ The security concern is that context providers can silently change what the mode
 Recommended security stance:
 
 - treat all retrieved context as untrusted input;
-    
 - isolate memory by user and tenant;
-    
 - validate context provider outputs before model exposure;
-    
 - avoid injecting secrets or privileged authorization data into model-visible context;
-    
 - document which providers can add tools or middleware;
-    
 - separate audit/evaluation history from primary context loading.
-    
 
 ## 6. Session and Storage Persistence Risk
 
@@ -173,19 +123,12 @@ The risk is that stored history can preserve hostile instructions, sensitive con
 Security review should account for:
 
 - whether history is local or service-managed;
-    
 - whether history is persisted across restarts;
-    
 - whether session IDs are tenant-isolated;
-    
 - whether reducers can preserve injected instructions;
-    
 - whether custom history providers enforce access control;
-    
 - whether serialized sessions are protected at rest;
-    
 - whether restored sessions use the same provider and agent configuration.
-    
 
 A strong implementation should treat session history as untrusted context, not trusted memory.
 
@@ -198,21 +141,13 @@ This makes MCP a major trust boundary. MCP servers should be reviewed like produ
 Recommended security stance:
 
 - connect only trusted MCP servers;
-    
 - prefer first-party service-hosted MCP servers over proxies;
-    
 - restrict allowed tools where possible;
-    
 - use approval for sensitive MCP tools;
-    
 - log MCP calls for audit;
-    
 - review retention, location, and handling of data sent to MCP servers;
-    
 - avoid passing unnecessary user, tenant, or credential data;
-    
 - scope API keys and OAuth tokens narrowly.
-    
 
 ## 8. Credential Handling and Azure Identity Choices
 
@@ -223,17 +158,11 @@ This has direct production implications. Agent applications often sit close to s
 Recommended security stance:
 
 - prefer managed identity for Azure production workloads;
-    
 - avoid broad API keys shared across agents;
-    
 - do not place secrets in instructions, prompts, history, or traces;
-    
 - scope credentials per environment and workload;
-    
 - rotate secrets used by MCP headers or provider clients;
-    
 - review whether credentials are persisted, logged, or passed through tool resources.
-    
 
 ## 9. Workflow Control Improves Predictability but Adds State Risk
 
@@ -244,19 +173,12 @@ This improves predictability compared with fully open-ended agent planning. Howe
 Recommended security stance:
 
 - treat checkpoints as sensitive application state;
-    
 - encrypt durable checkpoint storage;
-    
 - isolate checkpoint storage by tenant and workflow;
-    
 - avoid storing secrets in workflow state;
-    
 - validate resumed workflow state before continuing execution;
-    
 - audit pending human requests and approvals;
-    
 - review agent-to-agent message passing inside workflows.
-    
 
 ## 10. Observability and Sensitive Telemetry
 
@@ -267,17 +189,11 @@ This creates a clear governance tradeoff. Better observability can mean more sen
 Recommended security stance:
 
 - decide telemetry policy before production launch;
-    
 - keep sensitive-data telemetry disabled in production unless explicitly justified;
-    
 - redact prompts, responses, function arguments, and tool results;
-    
 - avoid duplicate telemetry from both agent and chat-client layers unless needed;
-    
 - align telemetry with data retention and compliance requirements;
-    
 - monitor tool-call and workflow events without over-collecting user content.
-    
 
 ## 11. Provider Variability and Security Consistency
 
@@ -288,15 +204,10 @@ This matters because a security design built for one provider may not transfer c
 Recommended security stance:
 
 - review security controls per provider, not only per framework;
-    
 - avoid assuming feature parity across Azure OpenAI, OpenAI, Foundry, Anthropic, Ollama, and Copilot integrations;
-    
 - test approval, storage, telemetry, and tool behavior after provider changes;
-    
 - document provider-specific retention and logging assumptions;
-    
 - avoid mixing providers in a workflow without explicit trust-boundary review.
-    
 
 ## 12. Administrative and Platform Controls Are Necessary but Not Sufficient
 
@@ -307,17 +218,11 @@ However, platform-level controls do not automatically enforce business-level per
 Recommended security stance:
 
 - use Azure identity and Foundry project boundaries for platform governance;
-    
 - enforce business authorization in application code or middleware;
-    
 - separate development, staging, and production projects;
-    
 - version and review high-risk agent definitions;
-    
 - monitor tool and MCP usage;
-    
 - avoid using one broad credential across unrelated agents or tenants.
-    
 
 # Guidelines
 
@@ -326,50 +231,30 @@ Recommended security stance:
 Use Microsoft Agent Framework when:
 
 - the team wants .NET or Python agent development;
-    
 - the application needs both agents and explicit workflows;
-    
 - the workflow benefits from type-safe routing, checkpointing, and human-in-the-loop behavior;
-    
 - the team wants middleware as a control layer for logging, validation, policy, and transformation;
-    
 - the application needs Microsoft Foundry integration;
-    
 - the team needs provider flexibility across Microsoft and non-Microsoft model providers;
-    
 - the application needs MCP integration with clear review of external trust boundaries;
-    
 - session, memory, RAG, and context providers can be designed safely;
-    
 - observability can be governed with appropriate telemetry controls;
-    
 - the organization is ready to own application-level authorization and responsible AI mitigations.
-    
 
 ## When to Avoid Microsoft Agent Framework
 
 Avoid or delay using Microsoft Agent Framework when:
 
 - the team expects the framework to automatically solve enterprise security governance;
-    
 - tool authorization cannot be enforced outside the model;
-    
 - high-impact tools would run without approval or deterministic checks;
-    
 - MCP servers cannot be reviewed, constrained, or monitored;
-    
 - session and checkpoint storage cannot be isolated or protected;
-    
 - context providers may mix data across users or tenants;
-    
 - sensitive telemetry cannot be controlled;
-    
 - provider differences are not understood;
-    
 - third-party systems would receive data without legal, compliance, or retention review;
-    
 - the application cannot implement its own responsible AI mitigations and safety systems.
-    
 
 # Conclusion
 
