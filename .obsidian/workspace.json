@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9d267cda0f3482a1",
+        "id": "39d684c0410cab31",
         "type": "tabs",
         "children": [
           {
-            "id": "1998f31d3c2245f9",
+            "id": "1dfdaae181998093",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/DOCUMENTATION/A COMPARISON BETWEEN OPENAI AGENTS SDK AND MICROSOFT AGENT FRAMEWORK..md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "A COMPARISON BETWEEN OPENAI AGENTS SDK AND MICROSOFT AGENT FRAMEWORK."
             }
           }
         ]
@@ -193,8 +197,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1998f31d3c2245f9",
+  "active": "1dfdaae181998093",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "STUDY/DOCUMENTATION/A COMPARISON BETWEEN OPENAI AGENTS SDK AND MICROSOFT AGENT FRAMEWORK..md",
+    "STUDY/NOTES/REVIEW ON PLATFORM GOVERNANCE BETWEEN MICROSOFT AND OPENAI..md",
+    "STUDY/TABLES/Untitled.md",
+    "STUDY/TABLES/COMPARISON OF INFRASTRUCTURE..md",
+    "STUDY/IMAGES/Untitled.md",
+    "STUDY/DRAFTS/GOOGLE AGENT DEVELOPMENT KIT..md",
+    "STUDY/DRAFTS/AMAZON STRANDS AGENT SDK..md",
+    "STUDY/DOCUMENTATION/OPENAI AGENTS SDK..md",
+    "STUDY/DOCUMENTATION/MICROSOFT AGENT FRAMEWORK..md",
+    "STUDY/Untitled.md",
+    "STUDY/NOTES",
+    "STUDY/TABLES",
+    "STUDY/IMAGES",
+    "STUDY/DRAFTS",
+    "STUDY/DOCUMENTATION HOME..md",
+    "STUDY/DOCUMENTATION",
+    "STUDY",
+    "PROPOSAL PLAN/Least-Privilege Control for Mitigating Prompt Injection in Tool-Using Large Language Model Agents.md",
+    "PROPOSAL PLAN/Detection, Localization, and Mitigation of Indirect Prompt Injection in Retrieval-Augmented Generation Systems.md",
+    "PROPOSAL PLAN",
+    "NOTES/Untitled.md",
+    "NOTES",
     "MASTERS/DOCUMENTATION/A COMPARISON BETWEEN OPENAI AGENTS SDK AND MICROSOFT AGENT FRAMEWORK..md",
     "MASTERS/DOCUMENTATION HOME..md",
     "MASTERS/Untitled.md",
@@ -206,27 +233,10 @@
     "MASTERS/IMAGES/Untitled.md",
     "Untitled.base",
     "Untitled.canvas",
-    "Untitled 1.base",
-    "MASTERS/IMAGES",
     "MASTERS/TABLES/Untitled.md",
     "MASTERS/DRAFTS/GOOGLE AGENT DEVELOPMENT KIT..md",
-    "MASTERS/TABLES",
     "MASTERS/TABLES/COMPARISON OF INFRASTRUCTURE..md",
-    "MASTERS/DRAFTS/AMAZON STRANDS AGENT SDK..md",
-    "Bem-vindo.md",
-    "MASTERS/DOCUMENTATION/SUMMARY COMPARISON OF OPENAI AND CLAUDE..md",
-    "MASTERS/DOCUMENTATION/SECURITY COMPARISON OF OPENAI AND CLAUDE..md",
-    "MASTERS/DRAFTS",
-    "crie um link.md",
-    "OpenAI.md",
-    "2026-04-28.md",
     "Sem título.canvas",
-    "Sem título.md",
-    "MASTERS/DOCUMENTATION",
-    "Sem título.base",
-    "Sem título 1.canvas",
-    "documents_security/042727_claude_managed_agents_security_review.mkd",
-    "documents_security/042727_openai_agents_sdk_security_review.mkd",
-    "documents_security/042727 Claude Managed Agents Security Review.md"
+    "Sem título 1.canvas"
   ]
 }

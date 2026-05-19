@@ -33,6 +33,7 @@
       "icon": "lucide-home",
       "color": "#e49ab4"
     },
+<<<<<<< HEAD
     "MASTERS": {
       "color": "#ad9ae4"
     },
@@ -51,6 +52,8 @@
       "icon": "lucide-file-pen",
       "color": "#e6e6e6"
     },
+=======
+>>>>>>> origin/master
     "MASTERS/DOCUMENTATION/SECURITY COMPARISON OF OPENAI AND CLAUDE..md": {
       "icon": "lucide-git-compare-arrows",
       "color": "#e49a9a"
@@ -59,21 +62,41 @@
       "icon": "lucide-square-sigma",
       "color": "#9ae4b0"
     },
-    "MASTERS/DRAFTS": {
+    "STUDY": {
+      "color": "#ad9ae4"
+    },
+    "STUDY/DOCUMENTATION HOME..md": {
+      "icon": "lucide-home"
+    },
+    "STUDY/DOCUMENTATION": {
+      "color": "#9abee4",
+      "icon": "lucide-folder-lock"
+    },
+    "STUDY/DOCUMENTATION/OPENAI AGENTS SDK..md": {
+      "icon": "lucide-file-pen",
+      "color": "#e6e6e6"
+    },
+    "STUDY/DRAFTS": {
       "icon": "lucide-folder-edit",
       "color": "#9ae4df"
     },
-    "MASTERS/DRAFTS/AMAZON STRANDS AGENT SDK..md": {
+    "STUDY/DRAFTS/AMAZON STRANDS AGENT SDK..md": {
       "icon": "lucide-file-pen",
       "color": "#9ae4b0"
     },
-    "MASTERS/DRAFTS/GOOGLE AGENT DEVELOPMENT KIT..md": {
+    "STUDY/DRAFTS/GOOGLE AGENT DEVELOPMENT KIT..md": {
       "icon": "lucide-file-pen",
       "color": "#dce49a"
     },
+<<<<<<< HEAD
     "MASTERS/NOTES": {
       "icon": "lucide-folder-search",
       "color": "#ad9ae4"
+=======
+    "STUDY/DRAFTS/MICROSOFT AGENT FRAMEWORK..md": {
+      "icon": "lucide-file-pen",
+      "color": "#9abee4"
+>>>>>>> origin/master
     }
   },
   "bookmarkIcons": {},
