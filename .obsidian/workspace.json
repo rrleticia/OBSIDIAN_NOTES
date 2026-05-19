@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5a295a351b51a33e",
+        "id": "9d267cda0f3482a1",
         "type": "tabs",
         "children": [
           {
-            "id": "df1b68030ec816e7",
+            "id": "1998f31d3c2245f9",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "MASTERS/DOCUMENTATION/A COMPARISON BETWEEN OPENAI AGENTS SDK AND MICROSOFT AGENT FRAMEWORK..md",
-                "bFile": "MASTERS/DOCUMENTATION/A COMPARISON BETWEEN OPENAI AGENTS SDK AND MICROSOFT AGENT FRAMEWORK..md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: A COMPARISON BETWEEN OPENAI AGENTS SDK AND MICROSOFT AGENT FRAMEWORK.  (Working Tree)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -197,7 +193,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "df1b68030ec816e7",
+  "active": "1998f31d3c2245f9",
   "lastOpenFiles": [
     "MASTERS/DOCUMENTATION/A COMPARISON BETWEEN OPENAI AGENTS SDK AND MICROSOFT AGENT FRAMEWORK..md",
     "MASTERS/DOCUMENTATION HOME..md",
