@@ -11,10 +11,14 @@
             "id": "df1b68030ec816e7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "MASTERS/DOCUMENTATION/A COMPARISON BETWEEN OPENAI AGENTS SDK AND MICROSOFT AGENT FRAMEWORK..md",
+                "bFile": "MASTERS/DOCUMENTATION/A COMPARISON BETWEEN OPENAI AGENTS SDK AND MICROSOFT AGENT FRAMEWORK..md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: A COMPARISON BETWEEN OPENAI AGENTS SDK AND MICROSOFT AGENT FRAMEWORK.  (Working Tree)"
             }
           }
         ]
@@ -195,11 +199,13 @@
   },
   "active": "df1b68030ec816e7",
   "lastOpenFiles": [
+    "MASTERS/DOCUMENTATION/A COMPARISON BETWEEN OPENAI AGENTS SDK AND MICROSOFT AGENT FRAMEWORK..md",
+    "MASTERS/DOCUMENTATION HOME..md",
+    "MASTERS/Untitled.md",
+    "MASTERS/DOCUMENTATION/MICROSOFT AGENT FRAMEWORK..md",
     "MASTERS/NOTES/REVIEW ON PLATFORM GOVERNANCE BETWEEN MICROSOFT AND OPENAI..md",
     "HOME.md",
-    "MASTERS/Untitled.md",
     "MASTERS/NOTES",
-    "MASTERS/DOCUMENTATION/MICROSOFT AGENT FRAMEWORK..md",
     "MASTERS/DOCUMENTATION/OPENAI AGENTS SDK..md",
     "MASTERS/IMAGES/Untitled.md",
     "Untitled.base",
@@ -207,7 +213,6 @@
     "Untitled 1.base",
     "MASTERS/IMAGES",
     "MASTERS/TABLES/Untitled.md",
-    "MASTERS/DOCUMENTATION HOME..md",
     "MASTERS/DRAFTS/GOOGLE AGENT DEVELOPMENT KIT..md",
     "MASTERS/TABLES",
     "MASTERS/TABLES/COMPARISON OF INFRASTRUCTURE..md",

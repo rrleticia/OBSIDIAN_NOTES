@@ -43,6 +43,10 @@
       "color": "#9abee4",
       "icon": "lucide-folder-lock"
     },
+    "MASTERS/DOCUMENTATION/MICROSOFT AGENT FRAMEWORK..md": {
+      "icon": "lucide-file-pen",
+      "color": "#9abee4"
+    },
     "MASTERS/DOCUMENTATION/OPENAI AGENTS SDK..md": {
       "icon": "lucide-file-pen",
       "color": "#e6e6e6"
@@ -67,9 +71,9 @@
       "icon": "lucide-file-pen",
       "color": "#dce49a"
     },
-    "MASTERS/DRAFTS/MICROSOFT AGENT FRAMEWORK..md": {
-      "icon": "lucide-file-pen",
-      "color": "#9abee4"
+    "MASTERS/NOTES": {
+      "icon": "lucide-folder-search",
+      "color": "#ad9ae4"
     }
   },
   "bookmarkIcons": {},
