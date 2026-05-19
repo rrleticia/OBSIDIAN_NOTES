@@ -51,6 +51,10 @@
       "color": "#9abee4",
       "icon": "lucide-folder-lock"
     },
+    "STUDY/DOCUMENTATION/MICROSOFT AGENT FRAMEWORK..md": {
+      "icon": "lucide-file-pen",
+      "color": "#9abee4"
+    },
     "STUDY/DOCUMENTATION/OPENAI AGENTS SDK..md": {
       "icon": "lucide-file-pen",
       "color": "#e6e6e6"
@@ -66,10 +70,6 @@
     "STUDY/DRAFTS/GOOGLE AGENT DEVELOPMENT KIT..md": {
       "icon": "lucide-file-pen",
       "color": "#dce49a"
-    },
-    "STUDY/DRAFTS/MICROSOFT AGENT FRAMEWORK..md": {
-      "icon": "lucide-file-pen",
-      "color": "#9abee4"
     }
   },
   "bookmarkIcons": {},

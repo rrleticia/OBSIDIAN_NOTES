@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8ad3a5213481a9f1",
+        "id": "da8d2c601785b220",
         "type": "tabs",
         "children": [
           {
-            "id": "e898ae737620e2bc",
+            "id": "f94b6baf0d6cd9a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -197,10 +197,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e898ae737620e2bc",
+  "active": "f94b6baf0d6cd9a0",
   "lastOpenFiles": [
-    "PROPOSAL PLAN/Least-Privilege Control for Mitigating Prompt Injection in Tool-Using Large Language Model Agents.md",
+    "HOME.md",
+    "conflict-files-obsidian-git.md",
+    "STUDY/DOCUMENTATION/MICROSOFT AGENT FRAMEWORK..md",
+    "STUDY/DRAFTS/MICROSOFT AGENT FRAMEWORK..md",
     "NOTES/Untitled.md",
+    "STUDY/Untitled.md",
+    "STUDY/NOTES/REVIEW ON PLATFORM GOVERNANCE BETWEEN MICROSOFT AND OPENAI..md",
+    "STUDY/NOTES",
+    "PROPOSAL PLAN/Least-Privilege Control for Mitigating Prompt Injection in Tool-Using Large Language Model Agents.md",
     "NOTES",
     "PROPOSAL PLAN/Detection, Localization, and Mitigation of Indirect Prompt Injection in Retrieval-Augmented Generation Systems.md",
     "PROPOSAL PLAN",
@@ -208,7 +215,6 @@
     "Untitled.base",
     "Untitled 1.base",
     "STUDY/DOCUMENTATION/OPENAI AGENTS SDK..md",
-    "STUDY/DRAFTS/MICROSOFT AGENT FRAMEWORK..md",
     "STUDY/IMAGES/Untitled.md",
     "STUDY/IMAGES",
     "STUDY/TABLES/Untitled.md",
@@ -217,7 +223,6 @@
     "STUDY/TABLES",
     "STUDY/TABLES/COMPARISON OF INFRASTRUCTURE..md",
     "STUDY/DRAFTS/AMAZON STRANDS AGENT SDK..md",
-    "HOME.md",
     "Bem-vindo.md",
     "MASTERS/DOCUMENTATION/SUMMARY COMPARISON OF OPENAI AND CLAUDE..md",
     "MASTERS/DOCUMENTATION/SECURITY COMPARISON OF OPENAI AND CLAUDE..md",
@@ -230,7 +235,6 @@
     "STUDY/DOCUMENTATION",
     "Sem título.base",
     "Sem título 1.canvas",
-    "documents_security/042727_claude_managed_agents_security_review.mkd",
     "documents_security/042727 Claude Managed Agents Security Review.md"
   ]
 }
