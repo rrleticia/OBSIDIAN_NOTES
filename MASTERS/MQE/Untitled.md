@@ -385,12 +385,12 @@ Essas perguntas são melhores porque geram uma discussão real de trade-off.
 
 A expectativa provável é:
 
-|Cenário|Segurança esperada|Utilidade esperada|Interpretação|
-|---|---|---|---|
-|C0 Base|Baixa|Alta|Modelo vulnerável|
-|C1 StruQ format-only|Baixa/média|Alta|Estrutura sozinha ajuda pouco|
-|C2 StruQ-like SFT|Boa contra ataques vistos|Boa|Aprende padrões treinados|
-|C3 SecAlign-like DPO|Melhor contra ataques não vistos|Boa|Preferência pode generalizar melhor|
+| Cenário              | Segurança esperada               | Utilidade esperada | Interpretação                       |
+| -------------------- | -------------------------------- | ------------------ | ----------------------------------- |
+| C0 Base              | Baixa                            | Alta               | Modelo vulnerável                   |
+| C1 StruQ format-only | Baixa/média                      | Alta               | Estrutura sozinha ajuda pouco       |
+| C2 StruQ-like SFT    | Boa contra ataques vistos        | Boa                | Aprende padrões treinados           |
+| C3 SecAlign-like DPO | Melhor contra ataques não vistos | Boa                | Preferência pode generalizar melhor |
 
 O resultado mais interessante seria:
 

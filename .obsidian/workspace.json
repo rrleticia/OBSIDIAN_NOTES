@@ -11,14 +11,14 @@
             "id": "1dfdaae181998093",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "STUDY/DOCUMENTATION/A COMPARISON BETWEEN OPENAI AGENTS SDK AND MICROSOFT AGENT FRAMEWORK..md",
-                "mode": "source",
-                "source": false
+                "aFile": "PROPOSAL PLAN/Detection, Localization, and Mitigation of Indirect Prompt Injection in Retrieval-Augmented Generation Systems.md",
+                "bFile": "PROPOSAL PLAN/Detection, Localization, and Mitigation of Indirect Prompt Injection in Retrieval-Augmented Generation Systems.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "A COMPARISON BETWEEN OPENAI AGENTS SDK AND MICROSOFT AGENT FRAMEWORK."
+              "icon": "diff",
+              "title": "Diff: Detection, Localization, and Mitigation of Indirect Prompt Injection in Retrieval-Augmented Generation Systems  (Working Tree)"
             }
           }
         ]
@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,8 +199,15 @@
   },
   "active": "1dfdaae181998093",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "MASTERS/MQE/Extension- Instruction-Hierarchy-like SFT.md",
+    "MASTERS/METCIENT/Least-Privilege Control for Mitigating Prompt Injection in Tool-Using Large Language Model Agents.md",
+    "MASTERS/METCIENT/Detection, Localization, and Mitigation of Indirect Prompt Injection in Retrieval-Augmented Generation Systems.md",
+    "MASTERS/MQE/EXPERIMENTAL PROCEDURE..md",
+    "MASTERS",
+    "MASTERS/MQE/Untitled.md",
+    "MASTERS/MQE/Untitled 1.md",
     "STUDY/DOCUMENTATION/A COMPARISON BETWEEN OPENAI AGENTS SDK AND MICROSOFT AGENT FRAMEWORK..md",
+    "conflict-files-obsidian-git.md",
     "STUDY/NOTES/REVIEW ON PLATFORM GOVERNANCE BETWEEN MICROSOFT AND OPENAI..md",
     "STUDY/TABLES/Untitled.md",
     "STUDY/TABLES/COMPARISON OF INFRASTRUCTURE..md",
@@ -217,11 +224,8 @@
     "STUDY/DOCUMENTATION HOME..md",
     "STUDY/DOCUMENTATION",
     "STUDY",
-    "PROPOSAL PLAN/Least-Privilege Control for Mitigating Prompt Injection in Tool-Using Large Language Model Agents.md",
-    "PROPOSAL PLAN/Detection, Localization, and Mitigation of Indirect Prompt Injection in Retrieval-Augmented Generation Systems.md",
-    "PROPOSAL PLAN",
-    "NOTES/Untitled.md",
-    "NOTES",
+    "MASTERS/METCIENT",
+    "MASTERS/MQE",
     "MASTERS/DOCUMENTATION/A COMPARISON BETWEEN OPENAI AGENTS SDK AND MICROSOFT AGENT FRAMEWORK..md",
     "MASTERS/DOCUMENTATION HOME..md",
     "MASTERS/Untitled.md",
@@ -230,12 +234,7 @@
     "HOME.md",
     "MASTERS/NOTES",
     "MASTERS/DOCUMENTATION/OPENAI AGENTS SDK..md",
-    "MASTERS/IMAGES/Untitled.md",
-    "Untitled.base",
     "Untitled.canvas",
-    "MASTERS/TABLES/Untitled.md",
-    "MASTERS/DRAFTS/GOOGLE AGENT DEVELOPMENT KIT..md",
-    "MASTERS/TABLES/COMPARISON OF INFRASTRUCTURE..md",
     "Sem título.canvas",
     "Sem título 1.canvas"
   ]
